@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "544d7c52-5b6a-4323-ab0d-1e01f8555914",
+      "cell_type": "code",
+      "source": "print(\"hello wolrd\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "hello wolrd\n"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "id": "148a3c52-77ff-4cd8-bed5-fc2cae0cae23",
+      "cell_type": "code",
+      "source": "print('Hello World!')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello World!\n"
+        }
+      ],
+      "execution_count": 3
+    },
+    {
+      "id": "0be25269-b09b-479e-ba4d-070f87a64377",
+      "cell_type": "code",
+      "source": "print('Hello','World!')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello World!\n"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "2db34d09-b52a-4e03-8e87-68e5c13e10ea",
+      "cell_type": "code",
+      "source": "print('Hello'+'World!')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "HelloWorld!\n"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "id": "da904e6d-832a-4523-bbaa-b65a2b9f4486",
+      "cell_type": "code",
+      "source": "print(100)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "100\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "953f071a-52c4-4e5b-9244-cbe416649163",
+      "cell_type": "code",
+      "source": "print(2+4)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "6\n"
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "id": "8d1bef1f-f295-4a77-99ab-a006885b7094",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
