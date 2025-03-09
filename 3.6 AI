@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "847c7f6f-1604-443a-a9f7-54d9929ff9c2",
+      "cell_type": "code",
+      "source": "print('Hello World!')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello World!\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "ac65c1b4-50c1-43b0-bc3e-b2e2a621cd33",
+      "cell_type": "code",
+      "source": "print('Hello', 'World!')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello World!\n"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "id": "c2d80e29-e68e-4f84-9770-500f730f974d",
+      "cell_type": "code",
+      "source": "print('Hello'+'World!')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "HelloWorld!\n"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "178cf1bb-3e12-4a68-82d8-68ba24ad8745",
+      "cell_type": "code",
+      "source": "print(100)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "100\n"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "id": "b1e07636-90c1-4c3b-a13a-28f0be78f9fc",
+      "cell_type": "code",
+      "source": "print(2+4)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "6\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "4930e9f9-ebf8-41d3-b051-f29c164c123e",
+      "cell_type": "code",
+      "source": "100",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 7,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "100"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "id": "5c8f4bb0-dc43-412f-ac43-e3043cdb6d08",
+      "cell_type": "code",
+      "source": "10 + 20",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 8,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "30"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 8
+    },
+    {
+      "id": "0716a0d6-4a29-4985-8701-420d3359c7ef",
+      "cell_type": "code",
+      "source": "10 - 20",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 9,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "-10"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 9
+    },
+    {
+      "id": "7718512a-d3a7-45b0-8d17-b74b925c53c0",
+      "cell_type": "code",
+      "source": "10 * 20",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 10,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "200"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 10
+    },
+    {
+      "id": "556dd155-3601-4d3e-b58b-6fadc4793b34",
+      "cell_type": "code",
+      "source": "10 / 20",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 11,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0.5"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "id": "59da4050-a4f4-4d97-9b44-a3b7773d0273",
+      "cell_type": "code",
+      "source": "123 * 8765",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 12,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "1078095"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 12
+    },
+    {
+      "id": "f760719e-246e-4255-85a9-2559931c4477",
+      "cell_type": "code",
+      "source": "10 + 20 * 30",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 13,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "610"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 13
+    },
+    {
+      "id": "70f54da5-d77c-413d-82f5-0a8c44339a36",
+      "cell_type": "code",
+      "source": "x = 100\ny = 200\nx + y",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 16,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "300"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 16
+    },
+    {
+      "id": "95f4fc4c-8e01-4745-bf4e-a54532540626",
+      "cell_type": "code",
+      "source": "x - y ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 17,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "-100"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 17
+    },
+    {
+      "id": "b6c9471c-c3f9-4aae-93aa-47496262684f",
+      "cell_type": "code",
+      "source": "x * y",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 18,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "20000"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 18
+    },
+    {
+      "id": "6f233e87-0b6d-41a2-9c88-4fe98d3b993c",
+      "cell_type": "code",
+      "source": "x / y ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 19,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0.5"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 19
+    },
+    {
+      "id": "ab81f858-1615-48e1-b9ec-cd5b24141241",
+      "cell_type": "code",
+      "source": "x ** 2",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 22,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "10000"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 22
+    },
+    {
+      "id": "06f574aa-12bd-462d-9289-a5aed6758c47",
+      "cell_type": "code",
+      "source": "x // 2",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 23,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "50"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 23
+    },
+    {
+      "id": "e69e7445-9ecc-49ab-b436-b93b0c856530",
+      "cell_type": "code",
+      "source": "n = 5\nn ** 2",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 25,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "25"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 25
+    }
+  ]
+}
